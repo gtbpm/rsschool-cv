@@ -24,3 +24,10 @@ ALPACAS RULE THE WORLD
 # Experience
 ***
 + TBD
+# Languages 
+***
++ **English** - **Full Professional Profiency** 
+   + Upper Intermediate /Advance (B2 – C1)
+   +  Fluency in speaking due to 2 years  living in USA (Houston, Texas) 
++ Russian - Native Speaker
++ Norwegian and German - Elementary proficiency
