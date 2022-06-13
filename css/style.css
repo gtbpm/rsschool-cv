@@ -1,1 +1,88 @@
-<!-- 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid red;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header{
+    border: 3px solid lightblue;
+    background-color: lightcyan;
+}
+.main{
+    border: 3px solid blueviolet;
+}
+.footer{
+    border: 3px solid lightsalmon;
+    background-color: lightcyan;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+<!-- НАВИГАЦИЯ В header >
+.nav {
+    border: 1px solid black;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+.nav-item {
+    font-size: 12px;
+}
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+  }
+.section-item a {
+    color: #55ff01;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+.section-item a:hover {
+    color: #45e4f0;
+  }
+
+<!-- Секции в MAIN >
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+/* 
+.section.my-photo {}
+.section.section.my-name-and-title {}
+
+.section.contacts{}
+.section.summary{}
+.section.skills{}
+.section.code{}
+.section.courses{}
+.section.projects{}
+.section.education{}
+.section.languages{}
+
+*/
+
+li {
+margin-left: 30px; list-style: none;
+}
