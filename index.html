@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./asstets/img/favico_for_cv_v1.ico">
+    <link rel="icon" href="./asstets/img/favico_for_cv_v2.ico">
 </head>
 <body>
     <header class = "header" >
@@ -26,34 +26,36 @@
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
-              </nav>
+            </nav>
         </div>
     </header>
     <main class = "main">
         <div class = "container">
-            <section class="section" id="profile">
-                <div class="section.my-photo">
-                    <img src="./asstets/img/photo_for_cv_v1.jpg" alt="avatar" width="140" height="140">
-                </div>
-                <div class="section.my-name-and-title">
+            <section class="section-flex-profile" id="profile">
+                <div class="section-my-name-and-title">
                     <h1>Olga Shevchuk</h1>
                     <p>Front End Developer</p>
+                </div>
+                <div class="section-my-photo">
+                    <img src="./asstets/img/photo_for_cv_v2.jpg" alt="avatar" width="140" height="140">
                 </div>
             </section>
             <section class="section" id="contacts">
                 <div class="section.contacts">
                     <h2>Contacts</h2>
                     <Ul>
-                        <li>Phone: +7 911 335-31-21</li>
-                        <li>E-mail:<a href="mailto:olga.shevchuk.x@gmail.com"> olga.shevchuk.x@gmail.com</a></li>
-                        <li>GitHub:<a href="https://github.com/gtbpm"> gtbpm</a></li>
+                        <li>Phone : +7 911 335-31-21</li>
+                        <li>E-mail :<a href="mailto:olga.shevchuk.x@gmail.com">olga.shevchuk.x@gmail.com</a></li>
+                        <li>GitHub :<a href="https://github.com/gtbpm">gtbpm</a></li>
+                        <li>Telegram :<a href="https://t.me/chrisxsp">@chrisxsp</a></li>
                     </Ul>
                 </div>
             </section>
             <section class="section" id="summary">
                 <div class="section.summary">
                     <h2>Summary</h2>
-                    <p> Some info about me here</p>
+                    <p>A successful freelancer in the travel business, now I am starting my journey in the field of IT development. Strive to contribute to the company my strong analytical and people skills that I have mastered in my background in oil and gas industry and through being in the travel business.</p>
+                    <p>Looking forward to meeting all the participants of this course on our great career path. Good luck to all of us and keep it up! </p>
                 </div>
             </section>
             <section class="section" id="skills">
@@ -66,9 +68,17 @@
                 </div>
             </section>
             <section class="section" id="code">
-                <div class="section.code">
+                <div class="section-code">
                     <h2>Code examples</h2>
-                    <pre> code here</pre>
+                    <pre>
+&lt;section<span>class</span>="section"<span>id</span>="projects"&gt;
+    &lt;div <span>class</span> = "section.projects"&gt;
+        &lt;Ul&gt;
+            &lt;li&gt;&lt;a <span>href</span>=<span class="spanblue"> "https://gtbpm.github.io/rsschool-cv/</span>"&gt;CV&lt;/a&gt;&lt;/li&gt;
+        &lt;Ul&gt;
+    &lt;/div&gt;
+&lt;section&gt;
+                    </pre>
                 </div>
             </section>
             <section class="section" id="courses">
@@ -83,24 +93,24 @@
                 <div class="section.projects">
                     <h2>Projects</h2>
                     <Ul>
-                        <li><a href="https://gtbpm.github.io/rsschool-cv/">Rolling Scopes CV project</a></li>
+                        <li><a href="https://gtbpm.github.io/rsschool-cv/">CV project in RSS</a></li>
                     </Ul>
                 </div>
             </section>
             <section class="section" id="education">
                 <div class="section.education">
                     <h2>Education</h2>
-                    <p> Russian State University of Oil and Gas (Gubkin)</p>
+                    <p> Russian State University of Oil and Gas</p>
                 </div>
             </section>
-            <section class="section" id="Language">
+            <section class="section" id="languages">
                 <div class="section.languages">
-                    <h2>Languge</h2>
+                    <h2>Languages</h2>
                     <ol>
-                        <li>English-Full Professional Profiency
+                        <li>English - Full Professional Proficiency
                             <ul>
-                                <li>Upper Intermediate /Advance (B2 – C1)</li>
-                                <li>Fluency in speaking due to 2 years living in USA (Houston, Texas)</li>
+                                <li>Upper Intermediate/Advanced (B2 – C1)</li>
+                                <li>Fluency in speaking due to 2 years living in USA</li>
                             </ul>
                         </li>
                         <li>Russian - Native Speaker</li>
@@ -108,13 +118,18 @@
                     </ol>
                 </div>
             </section>
-
-            
         </div>
     </main>
     <footer class = "footer">
         <div class = "container">
-            <p>footer</p>
+            <div class = "footer-flex">
+                <div class = "footer-logo">
+                    <a href="https://rs.school/js/"><img src="./asstets/img/rs_school_js.svg" alt="logo JS" width="100"></a>
+                </div>
+                <div class="footer-github">
+                    <p>2022 Created by&nbsp;<a href="https://github.com/gtbpm"> Olga Shevchuk @ github</a></p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
